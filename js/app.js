@@ -28,6 +28,7 @@ function Testyzmiennych()
     let przykladowa_liczba_przecinkowa = 128.8;
     let przykladowa_struktura = [1,2,3,4];
 
+    console.log("Wypisanie zmiennych");
     console.log(przykladowa_liczba);
     console.log(typeof przykladowa_liczba);
 
@@ -43,4 +44,11 @@ function Testyzmiennych()
     console.log(przykladowa_struktura);
     console.log(typeof przykladowa_struktura);
 
+
+    console.log("interpolacja i łączenie róznych typów danych");
+    console.log(`przykladowa liczba ${przykladowa_liczba} i przykladowy tekst ${przykladowy_tekst}`);
+    
+
 }
+
+Testyzmiennych();
